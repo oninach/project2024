@@ -1,0 +1,8 @@
+# .github/workflows/main.yml
+
+name: Main Workflow
+
+on: push
+jobs:
+  call-reusable-workflow:
+    uses: oninach/test_workflow/.github/workflows/test.yml@main
